@@ -1,0 +1,31 @@
+[INFO]: 🎯  Checking for the Wasm target...
+[INFO]: 🌀  Compiling to Wasm...
+   Compiling proc-macro2 v1.0.63
+   Compiling unicode-ident v1.0.10
+   Compiling quote v1.0.29
+   Compiling wasm-bindgen-shared v0.2.87
+   Compiling once_cell v1.18.0
+   Compiling bumpalo v3.13.0
+   Compiling log v0.4.19
+   Compiling wasm-bindgen v0.2.87
+   Compiling cfg-if v1.0.0
+   Compiling syn v2.0.23
+   Compiling wasm-bindgen-backend v0.2.87
+   Compiling wasm-bindgen-macro-support v0.2.87
+   Compiling wasm-bindgen-macro v0.2.87
+   Compiling console_error_panic_hook v0.1.7
+   Compiling foo v0.1.0 (/Users/mabin03/testspace/tauri/tauri-app/@mywasm/foo)
+warning: function `set_panic_hook` is never used
+ --> src/utils.rs:1:8
+  |
+1 | pub fn set_panic_hook() {
+  |        ^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(dead_code)]` on by default
+
+warning: `foo` (lib) generated 1 warning
+    Finished dev [unoptimized + debuginfo] target(s) in 11.26s
+[INFO]: ⬇️  Installing wasm-bindgen...
+[INFO]: Optional fields missing from Cargo.toml: 'description', 'repository', and 'license'. These are not necessary, but recommended
+[INFO]: ✨   Done in 11.54s
+[INFO]: 📦   Your wasm pkg is ready to publish at @mywasm/foo/pkg.
